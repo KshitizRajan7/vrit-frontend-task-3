@@ -1,5 +1,21 @@
 <<<<<<< HEAD
+
+**This is all I could finish within this time frame.**
 # vrit-frontend-task-3
+
+## Project Summary
+
+This project is a Next.js frontend assessment. Here is what was implemented:
+
+- Set up a Next.js app with custom configuration and optimized font loading.
+- Created reusable icon components for Interaction, Pen, React, and Vue icons in `src/app/icons/`.
+- Added SVG assets for various UI elements in `public/interaction/`, `public/pen/`, `public/reactIcon/`, and `public/Vue/`.
+- Built a `StatCard` component in `src/cards/StatCard.jsx` for displaying statistics.
+- Developed `Stats` and `Text` components in `src/components/` for UI and data presentation.
+- Customized global styles in `src/app/globals.css`.
+- Provided a main layout and page structure in `src/app/layout.js` and `src/app/page.js`.
+- Wrote documentation and setup instructions in this README.
+
 Assessment task 3
 =======
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
