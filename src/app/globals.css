@@ -1,0 +1,46 @@
+@import "tailwindcss";
+/* 1. Import Outfit from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+/* 3. Color & Font Variables */
+:root {
+  /* Light Mode Colors */
+  --background: #ffffff;
+  --foreground: #171717;
+
+  /* Font stacks */
+  --font-sans: 'Outfit', Arial, Helvetica, sans-serif;
+  --font-mono: var(--font-geist-mono); /* leave as-is if you use a mono font elsewhere */
+}
+
+/* 4. Dark Mode Overrides */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+/* 5. Base Element Styles */
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  margin: 0;
+  padding: 0;
+}
+
+/* (Optional) If you want to use your vars in Tailwind components: */
+/* Example utility to use the CSS var colors: */
+.bg-foreground {
+  background-color: var(--foreground);
+}
+.text-foreground {
+  color: var(--foreground);
+}
+.bg-background {
+  background-color: var(--background);
+}
+.text-background {
+  color: var(--background);
+}
