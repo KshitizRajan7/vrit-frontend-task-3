@@ -16,6 +16,17 @@ This project is a Next.js frontend assessment. Here is what was implemented:
 - Provided a main layout and page structure in `src/app/layout.js` and `src/app/page.js`.
 - Wrote documentation and setup instructions in this README.
 
+
+### Main Files and Folders
+
+- **src/app/page.js**: Renders the homepage layout using custom `Text` and `Stats` components, styled with Tailwind CSS.
+- **src/app/layout.js**: Sets up the root layout, imports/configures Google fonts, applies global styles, and wraps all pages in a consistent HTML structure.
+- **src/app/icons/**: Contains reusable React components for various icons (Interaction, Pen, React, Vue) used throughout the UI.
+- **src/cards/StatCard.jsx**: Implements a card component for displaying individual statistics.
+- **src/components/Stats.jsx & src/components/Text.jsx**: `Stats.jsx` displays statistical data, likely using `StatCard`. `Text.jsx` handles text content or headings for the UI.
+- **public/interaction/**, **public/pen/**, **public/reactIcon/**, **public/Vue/**: Stores SVG assets for icons and UI graphics, organized by category.
+- **src/app/globals.css**: Contains global CSS styles for the entire app.
+
 Assessment task 3
 =======
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
